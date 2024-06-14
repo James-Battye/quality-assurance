@@ -1,8 +1,8 @@
 {
-  "name": "@yes-chef/your-project",
+  "name": "@yes-chef/quality-assurance",
   "version": "0.0.0",
   "description": "Project description.",
-  "homepage": "https://github.com/james-battye/your-project#readme",
+  "homepage": "https://github.com/james-battye/quality-assurance#readme",
   "license": "ISC",
   "keywords": [],
   "author": {
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/james-battye/your-project.git"
+    "url": "git+https://github.com/james-battye/quality-assurance.git"
   },
   "bugs": {
-    "url": "https://github.com/james-battye/your-project/issues"
+    "url": "https://github.com/james-battye/quality-assurance/issues"
   },
   "type": "module",
   "main": "src/index.ts",
@@ -33,7 +33,7 @@
     "test:headed": "playwright test --headed",
     "release": "changeset publish",
     "update": "pnpm update -i -L -r",
-    "launch": "pnpm changeset && git add . && git commit -m 'Automated changeset commit' && git push && echo 'Open Pull Requests: https://github.com/james-battye/your-project/pulls'",
+    "launch": "pnpm changeset && git add . && git commit -m 'Automated changeset commit' && git push && echo 'Open Pull Requests: https://github.com/james-battye/quality-assurance/pulls'"
   },
   "devDependencies": {
     "@changesets/changelog-git": "^0.1.14",
@@ -54,7 +54,8 @@
   },
   "dependencies": {
     "@finsweet/ts-utils": "^0.39.2",
-    "swiper": "^11.0.3"
+    "swiper": "^11.0.3",
+    "tippy.js": "^6.3.7"
   },
   "engines": {
     "pnpm": ">=8"
