@@ -59,7 +59,7 @@ function addToolTipToImages() {
 
 // Function to add tooltips using tippy.js
 function addToolTipsToLinks() {
-  tippy('a', {
+  tippy('a:not([data-w-tab])', {
     followCursor: true,
     plugins: [followCursor],
     content(ref) {
