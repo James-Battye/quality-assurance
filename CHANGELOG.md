@@ -1,5 +1,11 @@
 # @yes-chef/quality-assurance
 
+## 0.0.5
+
+### Patch Changes
+
+- ee6393b: removed need for css file
+
 ## 0.0.4
 
 ### Patch Changes
