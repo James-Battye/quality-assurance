@@ -11,8 +11,8 @@ function checkWebflowURL(callback) {
 }
 
 function mainCallback() {
+  addTippyCSS();
   addToolTipsToLinks();
-  addCss();
   addToolTipToImages();
 }
 
