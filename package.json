@@ -33,7 +33,7 @@
     "test:headed": "playwright test --headed",
     "release": "changeset publish",
     "update": "pnpm update -i -L -r",
-    "launch": "pnpm changeset && git add . && git commit -m 'Automated changeset commit' && git push && echo 'Open Pull Requests: https://github.com/james-battye/quality-assurance/pulls'"
+    "launch": "git pull && pnpm changeset && git add . && git commit -m 'Automated changeset commit' && git push && echo 'Open Pull Requests: https://github.com/james-battye/quality-assurance/pulls'"
   },
   "devDependencies": {
     "@changesets/changelog-git": "^0.1.14",
