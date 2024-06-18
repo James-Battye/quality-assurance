@@ -1,5 +1,11 @@
 # @yes-chef/quality-assurance
 
+## 0.0.7
+
+### Patch Changes
+
+- 6e46c82: I'm shit
+
 ## 0.0.6
 
 ### Patch Changes
