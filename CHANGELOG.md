@@ -1,5 +1,11 @@
 # @yes-chef/quality-assurance
 
+## 0.0.4
+
+### Patch Changes
+
+- a9427d6: Added CL for images
+
 ## 0.0.3
 
 ### Patch Changes
