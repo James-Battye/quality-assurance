@@ -27,7 +27,9 @@ function addCss() {
 // Function to add tooltips to images with blue border and missing alt text
 function addToolTipToImages() {
   const images = document.querySelectorAll('img');
+  let count = 0;
   images.forEach((image) => {
+    count += 1;
     const src = image.getAttribute('src');
     let tooltipContent = '';
 
@@ -42,7 +44,7 @@ function addToolTipToImages() {
 
     if (!image.hasAttribute('alt') || image.getAttribute('alt') === '') {
       image.classList.add('missing-alt');
-      tooltipContent += 'This image is missing an alt attribute. ';
+      tooltipContent += 'This image is missing an alt text. ';
     }
 
     if (tooltipContent) {
@@ -55,6 +57,7 @@ function addToolTipToImages() {
       });
     }
   });
+  console.log(`${count} images need alt text on this page`);
 }
 
 // Function to add tooltips using tippy.js
