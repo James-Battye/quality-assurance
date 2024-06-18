@@ -1,5 +1,11 @@
 # @yes-chef/quality-assurance
 
+## 0.0.6
+
+### Patch Changes
+
+- 67092ca: fixed bug
+
 ## 0.0.5
 
 ### Patch Changes
