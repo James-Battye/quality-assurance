@@ -1,5 +1,12 @@
 # @yes-chef/quality-assurance
 
+## 0.0.3
+
+### Patch Changes
+
+- e857caf: fixed tabs
+- ceb5e61: fixed tabs
+
 ## 0.0.2
 
 ### Patch Changes
